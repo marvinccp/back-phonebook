@@ -23,7 +23,7 @@ myapp.use(express.json())
 const port = 3000
 
 myapp.get('/', (req, res) =>{
-  res.send('phonebook server, yeahh!!!!')
+  res.send('phonebook server, yeahh!')
 })
 
 myapp.get('/login', authHandler, (req, res) => {
