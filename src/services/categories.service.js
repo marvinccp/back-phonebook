@@ -1,5 +1,5 @@
 const boom = require('@hapi/boom');
-const { models } = require('../../server/libs/sequelize');
+const { models } = require('../../src/libs/sequelize');
 // const {sequelize} = require('../libs/sequelize');
 
 class CategoryService {

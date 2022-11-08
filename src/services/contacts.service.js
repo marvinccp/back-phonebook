@@ -1,6 +1,6 @@
 const boom = require('@hapi/boom');
 // const getConnection = require('../libs/postgres'
-const { models } = require('../../server/libs/sequelize');
+const { models } = require('../../src/libs/sequelize');
 
 class ContactsService {
   constructor() {
