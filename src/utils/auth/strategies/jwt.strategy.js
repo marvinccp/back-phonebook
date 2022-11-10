@@ -6,6 +6,7 @@ const options = {
   jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
   secretOrKey: config.jwtSecret
 }
+console.log(config.jwtSecret);
 
 const jwtStrategy = new Strategy(options, (payload, done)=>{
   return done(null, payload)
