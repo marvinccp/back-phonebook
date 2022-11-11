@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple and practical telephone book",
   "main": "index.js",
+  "engines":{
+    "node": "16.14.2"
+  },
   "scripts": {
     "build": "npm install",
     "dev": "nodemon index.js",
