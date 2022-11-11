@@ -20,7 +20,7 @@ const myapp = express()
 
 myapp.use(express.json())
 
-const port = process.env.PORT;
+let port = process.env.PORT || 3000
 
 myapp.get('/', (req, res) =>{
   res.send('phonebook server, yeahh!')
