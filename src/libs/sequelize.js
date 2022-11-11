@@ -17,7 +17,10 @@ if (config.isProd) {
   };
 }
 
-const sequelize = new Sequelize(config.dbUrl, options);
+const sequelize = new Sequelize(
+  'postgres://marvin:admin246@localhost:5432/my_sbook',
+  options
+);
 
 setupModels(sequelize);
 
